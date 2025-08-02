@@ -69,10 +69,10 @@ const HomePage = () => {
             <Link to="/computers">Computers</Link>
           </li>
           <li>
-            <Link to={isAuthenticated ? "/mobiles" : "/login"}>Mobiles</Link>
+            <Link to={isAuthenticated ? "/mobiles" : "/login"}>Mobiles for humans</Link>
           </li>
           <li>
-            <Link to={isAuthenticated ? "/laptops" : "/login"}>Laptops</Link>
+            <Link to={isAuthenticated ? "/laptops" : "/login"}>Laptops for works</Link>
           </li>
           <li>
             <Link to={isAuthenticated ? "/pendrives" : "/login"}>Pendrives</Link>
