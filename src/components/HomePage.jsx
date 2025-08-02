@@ -63,16 +63,16 @@ const HomePage = () => {
       <div className="sidebar">
         <ul>
           <li>
-            <Link to="/about-us">About Us</Link>
+            <Link to="/about-us">niggas</Link>
           </li>
           <li>
-            <Link to="/computers">Computers</Link>
+            <Link to="/computers">gooners</Link>
           </li>
           <li>
             <Link to={isAuthenticated ? "/mobiles" : "/login"}>Mobiles for humans</Link>
           </li>
           <li>
-            <Link to={isAuthenticated ? "/laptops" : "/login"}>Laptops for works</Link>
+            <Link to={isAuthenticated ? "/laptops" : "/login"}>Laptops</Link>
           </li>
           <li>
             <Link to={isAuthenticated ? "/pendrives" : "/login"}>Pendrives</Link>
